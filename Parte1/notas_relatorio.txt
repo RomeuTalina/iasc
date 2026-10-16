@@ -1,0 +1,10 @@
+Parte 1:
+
+Evolução:
+
+- Entrega 1 - : Implementação da rede neuronal sem capacidade de aprendizagem. Incluí um teste que mostrava que ela recebia
+as entradas corretamente. Não houve dificuldades.
+
+- Entrega 2 - : Implementação da retropropagação e capacidade de aprendizagem. Também incluí a implementação do fator de momento, que era intencionado para a entrega seguinte. Incluí um teste com o exemplo mostrado no powerpoint, com as retas na grelha 3x3. Houve alguma dificuldade em compreender a implementação da retropropagação, mas isto foi principalmente causado pelas diferenças discretas entre o pseudocódigo da arquitetura nos slides e o código python real.
+
+- Entrega 3 - : Restava apenas incluir um teste com um problema mais complexo. Testei a rede neuronal com o dataset de cancro da mama do Scikit Learn. Foi difícil conseguir que a rede neuronal aprendesse corretamente com o dataset. Foi necessário alterar repetidamente os parâmetros, nomeadamente o alfa. Foi preciso reduzir consideravelmente o alfa para que a rede encontrasse o mínimo. Foi preciso normalizar os dados do dataset, pois este inclui dados com valores muito diferentes, alguns nos milhares.
